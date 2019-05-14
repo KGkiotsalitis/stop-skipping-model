@@ -1,6 +1,6 @@
 # Rolling Horizon Stop Skipping Model
 
-This repository is meant for publishing some of the code related to the **stop-skipping problem in rolling horizons** applied in public transit (in particular, **bus services**).
+This repository is meant for publishing some of the code related to the **stop-skipping problem in rolling horizons** applied in public transit (in particular, **bus services**). I have more [^1] to say up here.
 
 Currently, this repository contains a couple of modules:
 
