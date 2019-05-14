@@ -4,6 +4,6 @@ This repository is meant for publishing some of our code related to the stop-ski
 
 Currently, this repository contains a couple of modules:
 
-The stop_skipping_model module contains functions that calculate the feasibility and the performance of a stop-skipping solution. This module is the rolling horizon stop-skipping model. 
+The stop_skipping_model.py script contains the rolling horizon stop-skipping model introduced in the paper Stop Stop-skipping in Rolling Horizons, which is currently under scientific review. This script contains all necessary functions to calculate the performance of a stop-skipping solution. 
 
-The tsp-drones-heur module module contains the data of the toy network (bus line) discussed in the paper Stop Stop-skipping in Rolling Horizons, which is currently under scientific review. Classes related to the brute-force solution method and the metaheuristics (sequential hill-climbing and genetic algorithm) discussed in the paper are also presented there.
+The implementation_toy network.py script contains the data of the toy network (bus line) discussed in the paper Stop Stop-skipping in Rolling Horizons. Classes related to the brute-force solution method and the metaheuristics (sequential hill-climbing and genetic algorithm) discussed in the same paper are also presented there. Changing the number of stops, limit_S, the results from different scenarios can be obtained.
