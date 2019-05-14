@@ -22,7 +22,7 @@ MIT License
 
 # Dependencies
 
-Note that the scripts are programmed in Python. Running or modifying the scripts requires an installed version of Python 3.6. In addition, the following libraries should also be installed:
+Note that the scripts are programmed in Python. Running or modifying the scripts requires an installed version of **Python 3.6**. In addition, the following libraries should also be installed:
 * numpy 
 * math
 * itertools
