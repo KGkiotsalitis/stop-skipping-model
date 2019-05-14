@@ -19,7 +19,7 @@ MIT License
 # Dependencies
 
 Note that the scripts are programmed in Python. Running or modifying the scripts requires an installed version of Python 3.6. In addition, the following libraries should also be installed:
-1. numpy
-2. math
-3. itertools
-4. time
+* numpy 
+* math
+* itertools
+* time
