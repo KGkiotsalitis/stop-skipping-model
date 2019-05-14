@@ -4,12 +4,12 @@ This repository is meant for publishing some of the code related to the **stop-s
 
 Currently, this repository contains a couple of modules:
 
-1. The *stop_skipping_model.py* script contains the rolling horizon stop-skipping model introduced in the paper **Stop Stop-skipping in Rolling Horizons[^1]**. This script contains all necessary functions to calculate the performance of a stop-skipping solution. 
+1. The `stop_skipping_model.py` script contains the rolling horizon stop-skipping model introduced in the paper **Stop Stop-skipping in Rolling Horizons**, which is currently under scientific review. This script contains all necessary functions to calculate the performance of a stop-skipping solution. 
 
-2. The *implementation_toy network.py* script contains the data of the toy network (bus line) discussed in the paper Stop Stop-skipping in Rolling Horizons. Classes related to the brute-force solution method and the metaheuristics (sequential hill-climbing and genetic algorithm) discussed in the same paper are also presented there. Changing the number of stops, limit_S, the results from different scenarios can be obtained. This is done in the code:
+2. The `implementation_toy network.py` script contains the data of the toy network (bus line) discussed in the paper Stop Stop-skipping in Rolling Horizons. Classes related to the brute-force solution method and the metaheuristics (sequential hill-climbing and genetic algorithm) discussed in the same paper are also presented there. Changing the number of stops, limit_S, the results from different scenarios can be obtained. This is done in the code:
 
 ~~~~
-limit_S=...
+limit_S=... #choose any number of bus stops from 3 to 6, or add more input include additional stops
 ~~~~
 
 # Referencing
@@ -27,5 +27,3 @@ Note that the scripts are programmed in Python. Running or modifying the scripts
 * math
 * itertools
 * time
-
-[^1]: The manuscript is currently under scientific review.
