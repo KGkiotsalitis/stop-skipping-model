@@ -20,4 +20,4 @@ MIT License
 
 # Dependencies
 
-Note that the scripts are programmed in Python, Haskell and LINDO. Running or modifying the scripts requires an installed version of **Python 3.6**, **Haskell 8.6.3* or **LINGO 18.0*. 
+Note that the scripts are programmed in Python, Haskell and LINDO. Running or modifying the scripts requires an installed version of **Python 3.6**, **Haskell 8.6.3** or **LINGO 18.0**. 
